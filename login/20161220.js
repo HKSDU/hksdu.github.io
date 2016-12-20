@@ -3,7 +3,7 @@ var attempt = 3; // Variable to count number of attempts.
 function validate(){
 var password = document.getElementById("password").value;
 if ( password == "ak47"){
-window.location = "index.html"; // Redirecting to other page.
+window.location = "\ak47\index.html"; // Redirecting to other page.
 return false;
 }
 else{
