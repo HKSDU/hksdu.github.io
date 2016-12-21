@@ -3,7 +3,7 @@ var attempt = 3; // Variable to count number of attempts.
 function validate(){
 var password = document.getElementById("password").value;
 if ( password == "ak47"){
-window.open= "/hksdu.github.io/index.html"; // Redirecting to other page.
+window.open('/hksdu.github.io/index.html'); // Redirecting to other page.
 return false;
 }
 else{
